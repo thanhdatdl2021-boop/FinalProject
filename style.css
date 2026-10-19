@@ -16,7 +16,7 @@ footer{
     background-color: yellow;
 }
 li{
-    display:inline-block;
+    display:block;
     width:auto;
 }
 h1{
