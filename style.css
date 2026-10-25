@@ -41,6 +41,7 @@ nav img {
 }
  .grid img{
     width: 50%;
+    object-fit: cover;
 }
  .flex{
     display:flex;
