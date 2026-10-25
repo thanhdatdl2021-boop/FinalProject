@@ -6,6 +6,8 @@ header{
     background-color: antiquewhite;
 }
 nav{
+    display: inline-block;
+    width: 80%;
     background-color: aqua;
 }
 main{
@@ -15,10 +17,10 @@ main{
 footer{
     background-color: yellow;
 }
-li{
+/*li{
     display:block;
     width:auto;
-}
+}*/
 h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -26,4 +28,22 @@ h1{
 }
 p{
     line-height: 75px;
+}
+nav img {
+    width: 10%;
+}
+ .grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: baseline;
+    row-gap: 100px;
+}
+ .grid img{
+    width: 100%;
+}
+ .flex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
