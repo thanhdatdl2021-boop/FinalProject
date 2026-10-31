@@ -64,10 +64,32 @@ nav img {
     border-radius: 12px;
 }
 .food{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/CarbonadeFlamanade.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat
+}
+#main:hover{
+    color: red;
+    text-decoration: none; 
+}
+div:nth-child(2n+1) img{
+    border: solid 1px orange;
+    margin: 10px;
+}
+a {
+  position: absolute;   
+  top: -100px;        
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  z-index: 100;
+  transition: top 0.2s ease; 
+}
+a:focus {
+  top: 0;
+  outline: 2px solid orange;
 }
 
 
